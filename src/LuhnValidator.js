@@ -2,7 +2,6 @@
     function validate() {
         var check = 0;
         var isEven = false;
-        // TODO There is a bit of duplication between here and the data-filters attribute
         var value = this.el.value.replace(/[\s\-]/g, '');
 
         for (var n = value.length - 1; n >= 0; n--) {

@@ -1,0 +1,23 @@
+{
+  "name": "luhn-validator",
+  "version": "1.0.0",
+  "description": "A module to validate credit card numbers",
+  "main": "src/LuhnValidator.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://James.Nicholls@git.svc.ft.com:8080/scm/mfe/luhn-validator.git"
+  },
+  "author": " <omapplications@ft.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-fixture": "^0.2.5",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.3.5"
+  }
+}
