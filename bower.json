@@ -1,0 +1,23 @@
+{
+  "name": "luhn-validator",
+  "version": "1.0.0",
+  "authors": [
+    "<omapplications@ft.com>"
+  ],
+  "description": "A Javsacript module for validating credit card numbers",
+  "main": "src/Validator.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
